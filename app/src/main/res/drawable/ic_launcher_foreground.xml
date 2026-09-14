@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow Circle -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#338B5CFF"
+        android:fillColor="#00000000" />
+    
+    <!-- Central S-shaped interconnected nexus spark for SOCH (Think. Connect. Grow.) -->
+    <!-- Top Loop Node -->
+    <path
+        android:pathData="M54,34 C63,34 70,41 70,49 C70,57 61,61 54,61 C47,61 38,65 38,73 C38,81 45,88 54,88 C62,88 68,83 70,78">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="38"
+                android:startY="34"
+                android:endX="70"
+                android:endY="88"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#4D8DFF" />
+                <item android:offset="0.5" android:color="#8B5CFF" />
+                <item android:offset="1.0" android:color="#B388FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M54,34 C63,34 70,41 70,49 C70,57 61,61 54,61 C47,61 38,65 38,73 C38,81 45,88 54,88 C62,88 68,83 70,78"
+        android:strokeWidth="6"
+        android:strokeColor="#8B5CFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000" />
+
+    <!-- Thinking Spark / Star Node -->
+    <path
+        android:pathData="M54,26 L56,31 L61,33 L56,35 L54,40 L52,35 L47,33 L52,31 Z"
+        android:fillColor="#F5F7FF" />
+    
+    <!-- Connectivity Orbit Dots -->
+    <path
+        android:pathData="M38,44 A3,3 0 1,1 37.9,44 Z"
+        android:fillColor="#4D8DFF" />
+    <path
+        android:pathData="M70,68 A3,3 0 1,1 69.9,68 Z"
+        android:fillColor="#4D8DFF" />
+</vector>
